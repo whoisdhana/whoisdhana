@@ -117,7 +117,7 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-gradient">
-            Let's Connect & Collaborate
+            Let&apos;s Connect & Collaborate
           </h2>
           <p className="text-xl text-[#B0B0B0] light:text-[#555555] max-w-3xl mx-auto leading-relaxed">
             Currently focused on company projects, but always open to professional networking and collaboration opportunities.
@@ -192,7 +192,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle className="text-[#E0E0E0] light:text-[#22313F]">Get In Touch</CardTitle>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Let's connect professionally and explore potential collaboration opportunities.
+                  Let&apos;s connect professionally and explore potential collaboration opportunities.
                 </p>
               </CardHeader>
               <CardContent>
@@ -205,7 +205,7 @@ export default function Contact() {
                     <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
                     <h3 className="text-2xl font-bold text-green-700 dark:text-green-400 mb-2">Message Sent!</h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Thank you for reaching out. I'll get back to you soon to discuss potential collaboration.
+                      Thank you for reaching out. I&apos;ll get back to you soon to discuss potential collaboration.
                     </p>
                   </motion.div>
                 ) : (
@@ -276,7 +276,7 @@ export default function Contact() {
                         name="message"
                         value={formData.message}
                         onChange={handleInputChange}
-                        placeholder="Let me know how I can help or what you'd like to discuss..."
+                        placeholder="Let me know how I can help or what you&apos;d like to discuss..."
                         className="min-h-32"
                         required
                       />

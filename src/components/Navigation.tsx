@@ -8,12 +8,8 @@ import TerminalLogo from "./TerminalLogo";
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
 
     // Check for saved theme preference or default to dark mode
     const savedTheme = localStorage.getItem("theme");
@@ -37,9 +33,7 @@ export default function Navigation() {
       document.body.style.backgroundColor = '#22313F';
     }
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
-      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -215,9 +216,11 @@ export default function Projects() {
                             
                             {/* Image container */}
                             <div className="relative overflow-hidden rounded-xl">
-                              <img
+                              <Image
                                 src={thumbnail}
                                 alt={`${project.title} preview ${idx + 1}`}
+                                width={400}
+                                height={200}
                                 className="w-full h-32 sm:h-40 object-cover transition-all duration-700 group-hover:scale-110 filter group-hover:brightness-110 group-hover:contrast-110"
                               />
                               

@@ -1,10 +1,10 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ChevronDown, Github, Linkedin, Mail, Code, Sparkles, ArrowRight } from "lucide-react";
+
+import { ChevronDown, Github, Linkedin, Mail, Code } from "lucide-react";
 import { motion } from "framer-motion";
-import TerminalLogo from "./TerminalLogo";
+
 
 // Custom X (Twitter) Icon Component
 const XIcon = ({ className }: { className?: string }) => (

@@ -146,7 +146,7 @@ export default function Services() {
 
                 <CardContent className="space-y-6">
                   <div>
-                    <h4 className="text-lg font-semibold text-[#E0E0E0] light:text-[#22313F] mb-4">What's Included:</h4>
+                    <h4 className="text-lg font-semibold text-[#E0E0E0] light:text-[#22313F] mb-4">What&apos;s Included:</h4>
                     <ul className="space-y-3">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start gap-3">
@@ -187,7 +187,7 @@ export default function Services() {
               <h3 className="text-2xl font-bold text-[#E0E0E0] light:text-[#22313F] mb-4">Need Something Custom?</h3>
               <p className="text-[#B0B0B0] light:text-[#555555] mb-6 max-w-2xl mx-auto">
                 Every business is unique. If you have specific requirements or need a completely 
-                custom solution, let's discuss your project and create a tailored package.
+                custom solution, let&apos;s discuss your project and create a tailored package.
               </p>
               <div className="flex flex-wrap justify-center gap-6 mb-6">
                 <div className="flex items-center gap-2">
@@ -209,7 +209,7 @@ export default function Services() {
                 size="lg"
                 className="px-8"
               >
-                Let's Discuss Your Project
+                Let&apos;s Discuss Your Project
               </Button>
             </div>
           </Card>

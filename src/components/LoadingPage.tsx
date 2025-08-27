@@ -1,14 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 
 export default function LoadingPage() {
   const [step, setStep] = useState(0);
   const [typedText1, setTypedText1] = useState("");
   const [typedText2, setTypedText2] = useState("");
-  const [typedText3, setTypedText3] = useState("");
   const [mainText, setMainText] = useState("");
   const [showCursor, setShowCursor] = useState(true);
   const [isComplete, setIsComplete] = useState(false);

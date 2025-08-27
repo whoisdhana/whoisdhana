@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+
 import { motion } from "framer-motion";
 import { 
   Brain, 
@@ -10,7 +10,7 @@ import {
   TrendingUp, 
   Zap, 
   Database,
-  Globe,
+
   Coins
 } from "lucide-react";
 
@@ -68,7 +68,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-xl text-[#B0B0B0] light:text-[#555555] max-w-3xl mx-auto leading-relaxed">
-            With a decade in marketing and design, I've evolved into an AI-powered solutions architect 
+            With a decade in marketing and design, I&apos;ve evolved into an AI-powered solutions architect 
             who bridges creativity with technology.
           </p>
         </motion.div>
@@ -87,13 +87,13 @@ export default function About() {
                   <h3 className="text-2xl font-bold text-[#E0E0E0] light:text-[#22313F]">My Journey</h3>
                 </div>
                 <p className="text-[#B0B0B0] light:text-[#555555] text-lg leading-relaxed mb-6">
-                  I don't just build applications—I solve real business problems using intelligent 
+                  I don&apos;t just build applications—I solve real business problems using intelligent 
                   automation and modern development practices. My unique blend of design thinking, 
                   marketing strategy, and technical expertise allows me to create solutions that 
                   are both powerful and user-friendly.
                 </p>
                 <p className="text-[#B0B0B0] light:text-[#555555] text-lg leading-relaxed">
-                  I'm <span className="font-bold text-gradient">WhoisDhana</span>, building the future of AI-powered solutions. 
+                  I&apos;m <span className="font-bold text-gradient">WhoisDhana</span>, building the future of AI-powered solutions. 
                   Currently creating impact at{" "}
                   <a 
                     href="https://aggrandizedigital.com" 
@@ -103,7 +103,7 @@ export default function About() {
                   >
                     AggrandizeDigital
                   </a>
-                  , where I don't just work—I innovate, create, and transform business challenges into 
+                  , where I don&apos;t just work—I innovate, create, and transform business challenges into 
                   intelligent solutions that drive real impact.
                 </p>
               </CardContent>
